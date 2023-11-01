@@ -1,0 +1,47 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/1/eshopper.png",
+            "title": "Eshoppers",
+            "description": "React, JSX, Tailwind, Jest",
+            "url": "https://github.com/kamilhayat/Eshopper"
+        },
+        {
+            "cover": "/portfolio/1/port2.png",
+            "title": "Portfolio",
+            "description": "React, JSX, Tailwind, Jest",
+            "url": "https://kamilhayat.github.io/kamis_portfolio/"
+        },
+        {
+            "cover": "/portfolio/1/calucalotr.png",
+            "title": "Calculator",
+            "description": "React, JSX, Tailwind, Jest",
+            "url": "http://google.com"
+        },
+        {
+            "cover": "/portfolio/1/landing.png",
+            "title": "Landing",
+            "description": "React, JSX, Tailwind, Jest",
+            "url": "https://github.com/kamilhayat/oibsip-landing"
+        },
+        {
+            "cover": "/portfolio/1/pig-game.png",
+            "title": "Pig Game",
+            "description": "React, JSX, Tailwind, Jest",
+            "url": "https://github.com/kamilhayat/pig-game"
+        },
+        {
+            "cover": "/portfolio/1/utilities.png",
+            "title": "Utilities Website",
+            "description": "React,Bootstrap",
+            "url": "https://github.com/kamilhayat/UtilitiesApp"
+        },
+        {
+            "cover": "/portfolio/1/temperature.png",
+            "title": "Temperature Converter",
+            "description": "Html,css ,js",
+            "url": "https://github.com/kamilhayat/oibsip_temperature"
+        }
+      
+    ]
+}

@@ -1,0 +1,48 @@
+.skills-social{
+      color: yellow;
+     }
+  
+.skills{
+  color:yellow;
+}
+
+.skills-charts {
+  float: right;
+  width: 53%;
+  height: 115%;
+  margin-top: 5%;
+  font-size: 20px;
+  color: yellow;
+  
+  
+}
+
+#myCanvasContainer ul {
+  display: grid;
+  gap: 100px;
+  grid-template-columns: 50px 50px 50px;
+  text-decoration: none;
+  list-style-type: none;
+  
+}
+
+
+  
+   
+@media screen and (max-width: 450px) {
+  .skills-charts {
+    float: none;
+  }
+  #myCanvasContainer ul {
+    display: grid;
+    gap: auto;
+    grid-template-columns: 1px 20px 40px;
+    list-style-type: none;
+   
+    
+  }
+ 
+ 
+}
+   
+    
