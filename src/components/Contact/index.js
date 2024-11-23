@@ -1,13 +1,10 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
-import { useRef } from 'react'
-import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const form = useRef()
 
   useEffect(() => {
     return setTimeout(() => {
@@ -15,27 +12,13 @@ const Contact = () => {
     }, 3000)
   }, [])
 
-  const sendEmail = (e) => {
-    e.preventDefault()
-
-    emailjs
-      .sendForm('gmail', 'template_anphn2j', form.current, '40REbwgpNkH63x3laXa7J')
-      .then(
-        () => {
-          alert('Message successfully sent!')
-          window.location.reload(false)
-        },
-        () => {
-          alert('Failed to send the message, please try again')
-        }
-      )
-  }
+ 
 
   return (
     <>
       <div className="container contact-page">
         <div className="text-zone">
-        
+
 
           <h1>
             <AnimatedLetters
@@ -49,43 +32,48 @@ const Contact = () => {
             questions, don't hesitate to contact me using below form either.
           </p>
           <div className="contact-form">
-            <form ref={form} onSubmit={sendEmail}>
+            <form
+              action="https://formspree.io/f/xnnqbqdb"
+              method="POST"
+              className="contact-inputs">
               <ul>
-                <li className="half">
-                  <input placeholder="Name" type="text" name="name" required />
-                </li>
-                <li className="half">
+
+                <li>
                   <input
-                    placeholder="Email"
-                    type="email"
-                    name="email"
+                    type="text"
+                    placeholder="username"
+                    name="username"
                     required
+                    autoComplete="off"
                   />
                 </li>
                 <li>
                   <input
-                    placeholder="Subject"
-                    type="text"
-                    name="subject"
+                    type="email"
+                    name="Email"
+                    placeholder="Email"
+                    autoComplete="off"
                     required
                   />
                 </li>
                 <li>
                   <textarea
-                    placeholder="Message"
-                    name="message"
+                    name="Message"
+                    cols="30"
+                    rows="10"
                     required
-                  ></textarea>
+                    autoComplete="off"
+                    placeholder="Enter you message"></textarea>
                 </li>
                 <li>
-                  <input type="submit" className="flat-button" value="SEND" />
+                  <input className='btn-send' type="submit" value="send" />
                 </li>
               </ul>
             </form>
           </div>
         </div>
-      
-      
+
+
       </div>
       <Loader type="pacman" />
     </>

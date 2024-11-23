@@ -11,10 +11,16 @@ const Home = () => {
 
   const nameArray = ['','K', 'a', 'm', 'i', 'l', '','H', 'a','y','a','t']
   const jobArray = [
-    'w',
+    'F',
+    'r',
+    'o',
+    'n',
+    't',
+    '-',
     'e',
-    'b',
-    ' ',
+    'n',
+    'd',
+    '',
     'd',
     'e',
     'v',
@@ -56,11 +62,11 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>Full Stack Developer / MERN Developer</h2>
+          <h2>Full Stack Developer / MERN Developer /Software Developer</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
-          <a rel="noreferrer" href="https://drive.google.com/file/d/1nHZ6jwIZXmzdE6bbNW9BI28Sd0yxPXiD/view?usp=sharing" target='_blank' className="flat-button">
+          <a rel="noreferrer" href="https://drive.google.com/file/d/1OJ2XPzGKW6aGZbsN7nt4Kksl28Whqxeb/view?usp=sharing" target='_blank' className="flat-button">
            RESUME
           </a>
         </div>

@@ -33,23 +33,18 @@ const About = () => {
             />
           </h1>
           <p>
-            I am a passionate web developer with more than a year of hands-on experience in creating user-focused
-            and visually appealing websites. Currently in the final year of my B.Tech program in computer
-            science at Jamia Hamdard, I have a strong foundation in computer science and a keen interest in the
-            ever-evolving world of web development, I have a strong passion for technology and a deep interest
-            in creating engaging and user-friendly websites.I am eager to learn and grow in this dynamic and
-            rapidly evolving industry.
+            Hi, I'm Kamil Hayat, a skilled front-end developer and B.Tech Computer Science graduate from Jamia Hamdard, New Delhi (Class of 2024). I specialize in creating responsive, user-centric web applications with a keen eye for design and performance.
+
+            My expertise lies in HTML, CSS, JavaScript, and frameworks like React.js, combined with back-end technologies like Node.js and MongoDB to deliver full-stack solutions. I’ve built projects such as a feature-rich e-commerce platform with real-time product updates and a personal portfolio website showcasing seamless navigation and responsiveness.
+
+
           </p>
           <p align="LEFT">
-            As a web developer, I am well-versed in responsive design principles,
-            ensuring that websites are optimized for different devices and screen sizes. I am a quick learner,
-            adaptable, and possess excellent communication skills, both written and verbal
-            In my free time, I enjoy exploring new web development techniques, reading blogs, and experimenting
-            with personal projects. I am excited about the opportunities that lie ahead in my career as a web
-            developer and look forward to contributing my skills and knowledge to create innovative and
-            impactful web solutions.
+            During my internship at Devtown, I collaborated on web applications that improved user experience and optimized application load times by 20%. I enjoy leveraging tools like styled-components, Bootstrap, and Firebase Authentication to create visually stunning and functional websites.
+
+            Whether it's designing intuitive front-end interfaces or integrating robust back-end systems, I’m committed to delivering exceptional results. Explore my portfolio to see how I turn ideas into reality using cutting-edge technologies
           </p>
-          
+
         </div>
 
         <div className="stage-cube-cont">
