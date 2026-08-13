@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.kamilhayat.info"
+        }
+      ],
+      "destination": "https://kamilhayat.info/$1",
+      "permanent": true
+    }
+  ]
+}
