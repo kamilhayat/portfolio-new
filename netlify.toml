@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[[redirects]]
+  from = "/*"
+  to = "https://kamilhayat.info/:splat"
+  status = 301
+  force = true

@@ -1,7 +1,2 @@
-# Canonical domain redirects
-https://www.kamilhayat.info/* https://kamilhayat.info/:splat 301!
-http://kamilhayat.info/* https://kamilhayat.info/:splat 301!
-http://www.kamilhayat.info/* https://kamilhayat.info/:splat 301!
-
-# SPA fallback
-/* /index.html 200
+# Old portfolio site -> new portfolio (force permanent redirect)
+/* https://kamilhayat.info/:splat 301!
